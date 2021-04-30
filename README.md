@@ -16,9 +16,11 @@ Downloaded zip file from GitHub and followed instructions on the readme page.
 3. Open browser and go to **localhost:3000**
 4. Open additional terminal and use **npx cypress open** command (to launch cypress)
 ## Credits
-Special thanks to:
-[Plural Sight]( https://www.pluralsight.com) – For both the video course on [Cypress: End-to-end JavaScript Testing]( https://www.pluralsight.com/courses/cypress-end-to-end-javascript-testing ), and the Globomantics demo website from the [Working with JavaScript Modules course]( https://www.pluralsight.com/courses/working-javascript-modules).
-[Cypress IO]( https://www.cypress.io/ ) – For providing support, reference material and maintaining the content. 
+**Special thanks to:**
+* [Plural Sight]( https://www.pluralsight.com) – For both the video course on [Cypress: End-to-end JavaScript Testing]( https://www.pluralsight.com/courses/cypress-end-to-end-javascript-testing ), and the Globomantics demo website from the [Working with JavaScript Modules course]( https://www.pluralsight.com/courses/working-javascript-modules).
+* [Cypress IO]( https://www.cypress.io/ ) – For providing support, reference material and maintaining the content.
+* [Jonathan Mills]( https://www.jeffandjon.com/ ) – Plural Sight Author..
+* [Adhithi Ravichandran]( http://adhithiravichandran.com/ ) – Plural Sight Author..
 ## License
 Technically, I really have no dog in this hunt. The [‘Globomantics’]( http://bit.ly/workingwithmodules ) application is currently licensed under the MIT guidelines. I am doing the same, just in case I may have missed anything. 
 MIT © [Gilbert Gonzales]()
