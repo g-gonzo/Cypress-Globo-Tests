@@ -14,7 +14,7 @@ Downloaded zip file from GitHub and followed instructions on the readme page.
 1. Open Visual Studio Code and then open folder.
 2. Open new terminal and use the **npm start** command. (to launch application)
 3. Open browser and go to **localhost:3000**
-4. Open additional terminal and use **npx cypress open** command (to launch cypress)
+4. Open additional terminal; navigate to Tests folder and use **npx cypress open** command (to launch cypress)
 ## Credits
 **Special thanks to:**
 * [Plural Sight]( https://www.pluralsight.com) – For both the video course on [Cypress: End-to-end JavaScript Testing]( https://www.pluralsight.com/courses/cypress-end-to-end-javascript-testing ), and the Globomantics demo website from the [Working with JavaScript Modules course]( https://www.pluralsight.com/courses/working-javascript-modules).
