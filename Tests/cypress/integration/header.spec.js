@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 describe('Header displays on all web pages', () => {
-    it('header should display home page', () => {
+    it('header should display on home page', () => {
         cy.visit('http://localhost:3000')
         cy.get('.col-md-8 > h1').should('contain', 'THE FUTURE')
         cy.get(':nth-child(1) > h3').should('contain', 'DARK ENERGY')
