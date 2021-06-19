@@ -61,15 +61,38 @@ describe('home page images display', () => {
 
     describe('home page image headers taglines display', () => {
         it('home page Dark Energy tagline is visible', () => {
-            cy.get('#sessions > :nth-child(1) > p').contains('lkjl')
+            cy.get('#sessions > :nth-child(1) > p').contains('BRIGHTENS THE WORLD')
         })
 
         it('home page Robotics tagline is visible', () => {
-            cy.get('#sessions > :nth-child(2) > p').contains('lkjl')
+            cy.get('#sessions > :nth-child(2) > p').contains('THEY ARE HERE AND THEY PLAY')
         })
 
         it('home page Strangers Rise tagline is visible', () => {
-            cy.get('#sessions > :nth-child(3) > p').contains('lkjl')
+            cy.get('#sessions > :nth-child(3) > p').contains('ASCENSION GOES TECHNICAL')
+        })
+    })
+
+    describe('home page buttons display', () => {
+        it('home page Dark Energy button is visible', () => {
+            cy.get('#sessions > div:nth-child(1) > div > a')
+                .invoke('attr', 'href')
+                .should('eq', '#')
+            cy.get(':nth-child(1) > .read-more-btn > .btn-oval').exists
+        })
+
+        it('home page Robotics button is visible', () => {
+            cy.get('#sessions > div:nth-child(2) > div > a')
+                .invoke('attr', 'href')
+                .should('eq', 'robotics.html')
+            cy.get(':nth-child(2) > .read-more-btn > .btn-oval').exists
+        })
+
+        it('home page Strangers Rise button is visible', () => {
+            cy.get('#sessions > div:nth-child(3) > div > a')
+                .invoke('attr', 'href')
+                .should('eq', '#')
+            cy.get(':nth-child(3) > .read-more-btn > .btn-oval').exists
         })
     })
 
